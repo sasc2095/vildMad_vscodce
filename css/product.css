@@ -1,0 +1,38 @@
+/*#productBackground {
+  /* evt slet denne*/
+/* background-image: url(../SVG/sommer_baggrund.svg);
+}*/
+
+/* Knapper */
+
+.back {
+  width: 8%;
+  margin-left: 5rem;
+}
+
+.back:hover {
+  transform: scale(1.1);
+}
+
+/*Indhold af side*/
+.grid_product {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-align: left;
+  /*margin: 70px;*/
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.productBox {
+  margin-left: -10rem;
+}
+
+/* billede på produktside*/
+.imageprodukt {
+  width: 300px;
+  border: 0.5px solid #000000;
+  margin-left: 9rem;
+}

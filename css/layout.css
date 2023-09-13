@@ -1,0 +1,298 @@
+/* fonte */
+h1,
+h2,
+h3,
+p {
+  font-family: "Signika Negative", sans-serif;
+  color: #454444;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+body {
+  line-height: 1.4;
+}
+*/
+
+/* media q */
+
+/* Main kigger på den senere!!
+main {
+  max-width: 1200px;
+}
+*/
+
+/* Navigation, header*/
+
+.logoHeader img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.logoHeader:hover {
+  transform: scale(1.1);
+}
+
+.nav5klasse {
+  font-family: "Signika Negative", sans-serif;
+  margin-left: -54rem;
+  font-weight: 530;
+  font-style: italic;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  opacity: 95%;
+  margin: 1rem;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-right: 60px;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 700;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #454444;
+}
+
+/*styling af footer*/
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.stylingFooter {
+  /*margin-top: 20%;*/
+  background-color: #f1eddc;
+  opacity: 95%;
+  /*padding: 35px;*/
+  margin-top: 15rem;
+  margin: 1rem;
+}
+
+.stylingFooter p,
+.stylingFooter h3,
+.stylingFooter label {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Signika Negative", sans-serif;
+  color: #454444;
+}
+
+.Logo_footer {
+  width: 24.5%;
+  margin-bottom: 1rem;
+}
+
+.fbInstaIcon {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+.fbInstaIcon:hover img {
+  transform: scale(1.1);
+}
+
+.f1 {
+  margin-left: 1rem;
+}
+
+.navne {
+  list-style: none;
+  margin-left: 0rem;
+}
+
+.f3 {
+  margin-left: 7rem;
+}
+.f4 {
+  margin-left: 13rem;
+  margin-top: 1rem;
+  width: 20%;
+}
+
+.form {
+  position: relative;
+  padding: 1rem;
+  width: auto;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.name_form,
+.email_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border: 2px solid #766a6a;
+  border-radius: 2rem;
+  color: #454444;
+  outline: none;
+  /*padding: 1.25rem;*/
+  background: none;
+}
+
+.name_form:hover,
+.email_form:hover {
+  border-color: #88a386;
+}
+
+.label_name,
+.label_email {
+  position: absolute;
+  left: 1rem;
+  top: 0rem;
+  padding: 0 0.5rem;
+  color: #454444;
+  cursor: text;
+  transition: top 0.2s ease-in, left 0.2s ease-in, font-size 0.2s ease-in;
+  /*background-color: orange;*/
+}
+
+.label_conditions {
+  color: rgb(0, 0, 0);
+}
+
+.name_form:focus ~ .label_name,
+.name_form:not(:placeholder-shown).name_form:not(:focus) ~ .name_label,
+.email_form:focus ~ .label_email,
+.email_form:not(:placeholder-shown).email_form:not(:focus) ~ .email_label {
+  /*top: -0.5rem;*/
+  font-size: 0.8rem;
+  left: -3.3rem;
+}
+
+.submit {
+  border-radius: 4rem;
+  background-color: #454444;
+  padding: 1rem 1rem;
+  width: auto;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 3.5rem;
+}
+
+/* Burger menu*/
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #454444;
+  margin: 5px -10px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-50deg) translate(-8px, 4px);
+  position: relative;
+  z-index: 100;
+}
+
+.hamburger.is-active:after {
+  transform: rotate(50deg) translate(-10px, -7px);
+  position: relative;
+  z-index: 100;
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: rgb(228, 250, 236);
+  padding-top: 120px;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+  background-color: #88a386;
+
+  color: #000000;
+  text-decoration: none;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 500;
+}
+
+.mobile-nav a {
+  transition: transform 0.2 ease;
+}
+
+.mobile-nav a:hover {
+  background-color: #ffa5a5;
+  transform: scale(1.1);
+}
+
+/* media q for hamburger*/
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .web-nav {
+    display: none;
+  }
+
+  .stylingFooter {
+    /* se på denne igen*/
+    display: none;
+  }
+}

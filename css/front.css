@@ -1,0 +1,101 @@
+/*
+main,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+*/
+.grid_4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*Baggrundsbillede på forside samt kategori-knapper*/
+
+h1 {
+  position: absolute;
+  margin-top: 6rem;
+  margin-left: 11rem;
+}
+
+h2 {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 35rem;
+}
+
+.imgindex {
+  width: 98%;
+  margin: 1rem;
+  margin-top: 1.5rem;
+  border: 0.2px solid rgb(108, 191, 255);
+  opacity: 0.4;
+}
+
+.menu_buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40%;
+  gap: 2.5rem;
+  margin-left: 27rem;
+  margin-top: -35rem;
+  margin-bottom: 7rem;
+  position: absolute;
+}
+
+.winter-button:hover,
+.spring-button:hover,
+.summer-button:hover,
+.fall-button:hover {
+  transform: scale(1.1);
+}
+
+/*media q for frontpage*/
+
+@media (max-width: 767px) {
+  .menu_buttons {
+    margin: 6rem;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 12rem;
+    position: absolute;
+  }
+
+  .imgindex {
+    display: none;
+  }
+
+  body {
+    background-image: url(../SVG/plain2.svg);
+  }
+
+  h1 {
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    max-width: 75%;
+  }
+
+  h2 {
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 7rem;
+    max-width: 75%;
+  }
+
+  .logoHeader img {
+    width: 100px;
+    margin-left: 10px;
+    max-width: 75%;
+  }
+}
