@@ -23,7 +23,7 @@ function showProduct(product) {
   document.querySelector(".productBox h2").textContent = data.title;
   document.querySelector("p.introduktion").textContent = data.introduktion;
 
-  document.querySelector("img").src = data.profileImage;
+  document.querySelector(".imageprodukt").src = data.profileImage;
 
   //document.querySelector(".grid_product".appendChild(clone);
 }
