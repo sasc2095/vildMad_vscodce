@@ -2,7 +2,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const arstid = urlParams.get("arstid");
 console.log(arstid);
-// const categoryParam = strand ? "?strand=" + strand : "";
 
 //sætter en variable for vores nøgle og udkommentere, hvilken side vi har den fra.
 //https://uutiizppilsesjcptglo.supabase.co
