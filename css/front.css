@@ -98,4 +98,8 @@ h2 {
     margin-left: 10px;
     max-width: 75%;
   }
+
+  .hamburger{
+    z-index: 100;
+  }
 }
