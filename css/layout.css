@@ -296,3 +296,27 @@ main {
     display: none;
   }
 }
+
+.sommerBaggrund {
+  background-image: url(/SVG/sommer_baggrund.svg);
+  width: 100%;
+  object-fit: cover;
+}
+
+.forarBaggrund {
+  background-image: url(/SVG/forår_baggrund.svg);
+  width: 100%;
+  object-fit: cover;
+}
+
+.efterarBaggrund {
+  background-image: url(/SVG/efteraar.svg);
+  width: 100%;
+  object-fit: cover;
+}
+
+.vinterBaggrund {
+  background-image: url(/SVG/winter.svg);
+  width: 100%;
+  object-fit: cover;
+}

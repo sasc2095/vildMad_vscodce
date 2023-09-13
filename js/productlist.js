@@ -19,7 +19,6 @@ fetch(`https://uutiizppilsesjcptglo.supabase.co/rest/v1/vildmadDatabase?${arstid
   .then((res) => res.json())
   .then(showProduct);
 
-//opretter en function, hvor vi looper arrayet enkeltvis for hver nedenstående kloning
 function showProduct(product) {
   console.log(product);
   product.forEach(showProducts);
@@ -28,12 +27,27 @@ function showProduct(product) {
 function showProducts(products) {
   const template = document.querySelector("#productListTemplate").content;
   const copy = template.cloneNode(true);
+  const background_image = document.querySelector(".background image");
 
   copy.querySelector(".title").textContent = products.title;
   copy.querySelector("img").src = products.profileImage;
   //.gridProductlist #productListTemplate
   copy.querySelector(".a_product").href = `product.html?id=${products.id}`;
   document.querySelector(".gridProductlist").appendChild(copy);
+}
+
+// skift baggrunde
+
+let baggrund = document.getElementById("imageBackground");
+
+if ((sommer = true)) {
+  baggrund.classList.add("sommerBaggrund");
+} else if ((forar = true)) {
+  baggrund.classList.add("forarBaggrund");
+} else if ((efterar = true)) {
+  baggrund.classList.add("efterarBaggrund");
+} else if ((vinter = true)) {
+  baggrund.classList.add("vinterBaggrund");
 }
 
 // burgermenu
