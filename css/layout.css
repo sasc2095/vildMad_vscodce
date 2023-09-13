@@ -296,3 +296,10 @@ main {
     display: none;
   }
 }
+
+/*media q for header*/
+@media (max-width: 768px) {
+  .nav5klasse{
+    margin-left: -10rem;
+  }
+}
