@@ -95,6 +95,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 2rem;
+  margin-top: -5rem;
 }
 
 .stylingFooter {
@@ -312,12 +313,37 @@ main {
 
   .grid_footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin-top: -10rem;
   }
 
-  .stylingFooter {
-    /* se på denne igen*/
-    /*display: none;*/
+  .f1,
+  .f2,
+  .f3,
+  .f4 {
+    margin-bottom: 2.5rem;
+  }
+
+  .f1 {
+    margin-left: 4.5rem;
+  }
+
+  .f2 {
+    margin-top: 1.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .f3 {
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+  }
+
+  .f4 {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
 }
 
