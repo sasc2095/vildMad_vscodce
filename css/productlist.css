@@ -12,6 +12,10 @@
   margin-top: 1rem;
 }
 
+.imageProductlist:hover {
+  border: 2px solid #fa8907b9;
+}
+
 /*knapper*/
 .readmore {
   border: 2rem;
