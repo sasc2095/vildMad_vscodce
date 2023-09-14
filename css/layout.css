@@ -311,6 +311,25 @@ main {
     display: none;
   }
 
+  main h1 {
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+  }
+  main h2 {
+    margin-top: -2rem;
+    margin-bottom: -1.8rem;
+    margin-left: 6rem;
+  }
+
+  .menu_buttons {
+    margin-top: 4rem;
+    margin-left: 6.7rem;
+  }
+
+  .logoHeader {
+    margin-left: -2rem;
+  }
+
   .grid_footer {
     display: grid;
     grid-template-columns: 1fr;
