@@ -44,8 +44,8 @@ h2 {
   grid-template-columns: 1fr 1fr;
   width: 40%;
   gap: 2.5rem;
-  margin-left: 27rem;
-  margin-top: 5rem;
+  margin-left: 26.5rem;
+  margin-top: 3.2rem;
   margin-bottom: 7rem;
   /* position: absolute;*/
 }
@@ -101,9 +101,5 @@ body {
     width: 100px;
     margin-left: 10px;
     max-width: 75%;
-  }
-
-  .hamburger {
-    /* z-index: 100;*/
   }
 }
