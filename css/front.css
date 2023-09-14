@@ -20,14 +20,14 @@ footer {
 /*Baggrundsbillede på forside samt kategori-knapper*/
 
 h1 {
-  position: absolute;
+  /* position: absolute;*/
   margin-top: 6rem;
-  margin-left: 11rem;
+  margin-left: 10rem;
 }
 
 h2 {
-  position: absolute;
-  margin-top: 10rem;
+  /* position: absolute;*/
+  margin-top: 2rem;
   margin-left: 35rem;
 }
 
@@ -45,9 +45,9 @@ h2 {
   width: 40%;
   gap: 2.5rem;
   margin-left: 27rem;
-  margin-top: -35rem;
+  margin-top: 5rem;
   margin-bottom: 7rem;
-  position: absolute;
+  /* position: absolute;*/
 }
 
 .winter-button:hover,
@@ -55,6 +55,10 @@ h2 {
 .summer-button:hover,
 .fall-button:hover {
   transform: scale(1.1);
+}
+
+body {
+  background-image: url(../SVG/plain2.svg);
 }
 
 /*media q for frontpage*/
@@ -66,7 +70,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 12rem;
-    position: absolute;
+    /* position: absolute;*/
   }
 
   .imgindex {
@@ -99,7 +103,7 @@ h2 {
     max-width: 75%;
   }
 
-  .hamburger{
-    z-index: 100;
+  .hamburger {
+    /* z-index: 100;*/
   }
 }

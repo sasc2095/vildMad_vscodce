@@ -12,6 +12,11 @@ p {
   box-sizing: border-box;
 }
 
+main h1 {
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+
 h1 {
   margin-left: 40rem;
   margin-bottom: 5rem;
@@ -85,6 +90,7 @@ main {
 .grid_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem;
 }
 
 .stylingFooter {
@@ -92,8 +98,7 @@ main {
   background-color: #f1eddc;
   opacity: 95%;
   /*padding: 35px;*/
-  margin-top: 15rem;
-  margin: 1rem;
+  margin-top: 20rem;
 }
 
 .stylingFooter p,
