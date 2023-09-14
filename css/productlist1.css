@@ -38,7 +38,7 @@
   transform: scale(1.1);
 }
 
-main h1 {
+.productlisth1 {
   margin-left: 40.5rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
@@ -50,10 +50,15 @@ button .hamburger {
 }
 
 .mobile-nav {
-  margin-left: -9rem;
+  margin-left: 0rem;
 }
 
 @media (max-width: 767px) {
+  .productlisth1 {
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+  }
+
   main h2 {
     margin-left: 0rem;
     margin-top: 1rem;
@@ -62,7 +67,7 @@ button .hamburger {
   .back {
     width: 25%;
     margin-left: 5rem;
-    margin-top: -30rem;
+    margin-bottom: -1.5rem;
   }
 
   .readmore {
