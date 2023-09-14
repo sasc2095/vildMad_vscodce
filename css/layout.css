@@ -11,6 +11,16 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  margin-left: 40rem;
+  margin-bottom: 5rem;
+}
+
+.readmore {
+  margin-top: 1rem;
+}
+
 /*
 body {
   line-height: 1.4;

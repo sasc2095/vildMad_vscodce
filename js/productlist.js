@@ -9,12 +9,15 @@ const key =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1dGlpenBwaWxzZXNqY3B0Z2xvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTQwNzQ0MTgsImV4cCI6MjAwOTY1MDQxOH0.NUGKP51o37ORWFiRq3CrUp7oImAREwLfwuA5LWPaK2I";
 
 //fetcher data fra database
-fetch(`https://uutiizppilsesjcptglo.supabase.co/rest/v1/vildmadDatabase?${arstid}=is.true`, {
-  method: "GET",
-  headers: {
-    apikey: key,
-  },
-})
+fetch(
+  `https://uutiizppilsesjcptglo.supabase.co/rest/v1/vildmadDatabase?${arstid}=is.true`,
+  {
+    method: "GET",
+    headers: {
+      apikey: key,
+    },
+  }
+)
   //skriver i js, at vi gerne vil have dens response er json
   .then((res) => res.json())
   .then(showProduct);
@@ -38,17 +41,17 @@ function showProducts(products) {
 
 // skift baggrunde
 
-let baggrund = document.getElementById("imageBackground");
+//let baggrund = document.getElementById("imageBackground");
 
-if ((sommer = true)) {
-  baggrund.classList.add("sommerBaggrund");
-} else if ((forar = true)) {
-  baggrund.classList.add("forarBaggrund");
-} else if ((efterar = true)) {
-  baggrund.classList.add("efterarBaggrund");
-} else if ((vinter = true)) {
-  baggrund.classList.add("vinterBaggrund");
-}
+//if ((sommer = true)) {
+//baggrund.classList.add("sommerBaggrund");
+//} else if ((forar = true)) {
+//baggrund.classList.add("forarBaggrund");
+//} else if ((efterar = true)) {
+//baggrund.classList.add("efterarBaggrund");
+//} else if ((vinter = true)) {
+//baggrund.classList.add("vinterBaggrund");
+//}
 
 // burgermenu
 
