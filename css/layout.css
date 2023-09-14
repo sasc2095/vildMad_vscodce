@@ -315,7 +315,7 @@ main {
     margin-left: 3.5rem;
     margin-top: 3rem;
   }
-  main h2 {
+  .indexh2 {
     margin-top: -2rem;
     margin-bottom: -1.8rem;
     margin-left: 6rem;
@@ -326,10 +326,12 @@ main {
     margin-left: 6.7rem;
   }
 
+  /*logo*/
   .logoHeader {
     margin-left: -2rem;
   }
 
+  /*footer*/
   .grid_footer {
     display: grid;
     grid-template-columns: 1fr;

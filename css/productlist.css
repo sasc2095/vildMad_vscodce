@@ -50,12 +50,6 @@ button {
 }
 
 @media (max-width: 767px) {
-  main h1 {
-    margin-left: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-  }
-
   main h2 {
     margin-left: 0rem;
     margin-top: 1rem;
